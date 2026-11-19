@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Traço da rota contido na área segura [26..82] -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M34,74 C34,60 54,60 54,54 C54,48 68,52 68,42"
+        android:strokeColor="#34D399"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4.5" />
+
+    <!-- Ponto de partida (nó inferior esquerdo) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,74 m-6.5,0 a6.5,6.5 0,1 1,13 0 a6.5,6.5 0,1 1,-13 0" />
+    <path
+        android:fillColor="#059669"
+        android:pathData="M34,74 m-3,0 a3,3 0,1 1,6 0 a3,3 0,1 1,-6 0" />
+
+    <!-- Paragem intermédia -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-5,0 a5,5 0,1 1,10 0 a5,5 0,1 1,-10 0" />
+
+    <!-- Pin de destino (superior direito, topo em y=27, dentro de 21..87) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,27 C61.9,27 57,31.9 57,38 C57,45.8 68,55 68,55 C68,55 79,45.8 79,38 C79,31.9 74.1,27 68,27 Z" />
+    <path
+        android:fillColor="#059669"
+        android:pathData="M68,38 m-4.2,0 a4.2,4.2 0,1 1,8.4 0 a4.2,4.2 0,1 1,-8.4 0" />
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save_route"
+        android:icon="@drawable/ic_bookmark"
+        android:title="@string/menu_save_route"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_saved_routes"
+        android:icon="@drawable/ic_folder_open"
+        android:title="@string/menu_saved_routes"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear_completed"
+        android:icon="@drawable/ic_sweep"
+        android:title="@string/menu_clear_completed"
+        app:showAsAction="never" />
+
+</menu>

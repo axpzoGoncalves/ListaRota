@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListaRota</string>
+    <string name="app_subtitle">Rotas diárias offline</string>
+    <string name="title_saved_routes">Rotas Guardadas</string>
+
+    <string name="footer_copyright">© 2026 Carlos Gonçalves (IA) - Todos os direitos reservados</string>
+
+    <string name="menu_save_route">Guardar rota</string>
+    <string name="menu_saved_routes">Rotas guardadas</string>
+    <string name="menu_clear_completed">Limpar concluídas</string>
+
+    <string name="btn_batch_import">Colar várias</string>
+    <string name="btn_add_single">Nova paragem</string>
+    <string name="btn_add_stops">Adicionar paragens</string>
+    <string name="btn_clear_completed">Limpar concluídas</string>
+    <string name="btn_navigate">Navegar</string>
+    <string name="btn_copy">Copiar</string>
+    <string name="btn_share">Partilhar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_load">Carregar</string>
+    <string name="btn_delete">Apagar</string>
+    <string name="btn_undo">Anular</string>
+
+    <string name="stops_progress">%1$d de %2$d concluídas</string>
+    <string name="stop_order_format">%1$d</string>
+    <string name="added_stops_count">%1$d paragens adicionadas</string>
+    <string name="cleared_completed_count">%1$d paragens concluídas removidas</string>
+    <string name="saved_route_meta">%1$d paragens · %2$s</string>
+    <string name="route_loaded_feedback">Rota "%1$s" carregada (%2$d paragens)</string>
+
+    <string name="empty_route_title">Nenhuma paragem na rota atual</string>
+    <string name="empty_route_subtitle">Cole várias moradas de uma vez ou adicione uma paragem individual para começar.</string>
+    <string name="empty_saved_title">Sem rotas guardadas</string>
+    <string name="empty_saved_subtitle">Guarde a sua lista atual a partir do menu superior para a reutilizar noutros dias.</string>
+
+    <string name="dialog_batch_title">Importar várias moradas</string>
+    <string name="dialog_batch_helper">Escreva ou cole uma morada por linha. Linhas vazias e espaços extras serão limpos automaticamente.</string>
+    <string name="hint_batch_addresses">Ex.: Av. da Liberdade 210, Lisboa
+Rua de Santa Catarina 112, Porto</string>
+
+    <string name="dialog_add_stop_title">Nova paragem</string>
+    <string name="hint_stop_title">Título ou cliente (opcional)</string>
+    <string name="hint_stop_address">Morada completa</string>
+    <string name="hint_stop_note">Nota curta (opcional)</string>
+    <string name="error_address_required">Introduza a morada da paragem.</string>
+
+    <string name="dialog_save_route_title">Guardar rota localmente</string>
+    <string name="hint_route_name">Nome da rota (ex.: Rota Manhã)</string>
+    <string name="error_route_name_required">Introduza um nome para a rota.</string>
+
+    <string name="dialog_load_route_title">Carregar rota guardada</string>
+    <string name="dialog_load_route_message">Substituir a lista atual pela rota "%1$s"?</string>
+    <string name="dialog_delete_route_title">Apagar rota</string>
+    <string name="dialog_delete_route_message">Tem a certeza de que pretende apagar a rota "%1$s"?</string>
+
+    <string name="msg_no_valid_addresses">Nenhuma morada válida encontrada.</string>
+    <string name="msg_stop_added">Paragem adicionada à rota.</string>
+    <string name="msg_stop_deleted">Paragem removida.</string>
+    <string name="msg_empty_route_cannot_save">Adicione pelo menos uma paragem antes de guardar a rota.</string>
+    <string name="msg_route_saved">Rota "%1$s" guardada localmente.</string>
+    <string name="msg_saved_route_deleted">Rota guardada removida.</string>
+    <string name="msg_no_completed_to_clear">Não existem paragens concluídas para limpar.</string>
+    <string name="msg_no_maps_app">Nenhuma aplicação de mapas encontrada no dispositivo.</string>
+    <string name="msg_address_copied">Morada copiada para a área de transferência.</string>
+
+    <string name="share_default_header">Paragem da rota</string>
+    <string name="share_chooser_title">Partilhar paragem</string>
+    <string name="share_stop_format">%1$s
+Morada: %2$s</string>
+    <string name="share_stop_with_note_format">%1$s
+Morada: %2$s
+Nota: %3$s</string>
+
+    <string name="cd_toggle_completed">Marcar paragem como concluída</string>
+    <string name="cd_move_up">Mover paragem para cima</string>
+    <string name="cd_move_down">Mover paragem para baixo</string>
+    <string name="cd_delete_stop">Apagar paragem</string>
+    <string name="cd_delete_saved_route">Apagar rota guardada</string>
+    <string name="cd_empty_route_icon">Ícone de rota vazia</string>
+    <string name="cd_empty_saved_icon">Ícone de pasta vazia</string>
+    <string name="cd_navigate_back">Voltar</string>
+</resources>
